@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.169.2-alpha.ca16ee9fc68c3998ffaf0a4de17a34f648c5cbc9](https://github.com/bigcommerce/checkout-sdk-js/compare/v1.165.0...v1.169.2-alpha.ca16ee9fc68c3998ffaf0a4de17a34f648c5cbc9) (2021-07-30)
+
+
+### Features
+
+* **checkout:** PAYPAL-1057 added Venmo APM to paypal commerce ([e55f4d5](https://github.com/bigcommerce/checkout-sdk-js/commit/e55f4d5ee0511b4bde005aaa970498467d29beaa))
+* **payment:** INT-3946 added locale from browser on masterpass SRC ([b9a335d](https://github.com/bigcommerce/checkout-sdk-js/commit/b9a335d582b72f268d2d9082c6a52ebf1bbabeb8))
+* **payment:** INT-4222 Add vaulting compatibility to Moneris ([dc318d7](https://github.com/bigcommerce/checkout-sdk-js/commit/dc318d72a2faa708066c59f07f9c23c98b01b94c))
+* **payment:** PAYMENTS-7169 add resume payment ability to PPSDK strategy ([#1188](https://github.com/bigcommerce/checkout-sdk-js/issues/1188)) ([c874e0f](https://github.com/bigcommerce/checkout-sdk-js/commit/c874e0fbbd09503629c3c555c232cd3da08e6141))
+* **payment:** PAYPAL-1090 added size property for paypalexpress button ([#1191](https://github.com/bigcommerce/checkout-sdk-js/issues/1191)) ([99daccf](https://github.com/bigcommerce/checkout-sdk-js/commit/99daccf6468ef65a063d151b97b465f61d45158e))
+
+
+### Bug Fixes
+
+* **payment:** INT-3946 for testing ([ca16ee9](https://github.com/bigcommerce/checkout-sdk-js/commit/ca16ee9fc68c3998ffaf0a4de17a34f648c5cbc9))
+* **payment:** INT-3946 missing semicolon ([60afc6e](https://github.com/bigcommerce/checkout-sdk-js/commit/60afc6e401bc4129eab1fe764926485c1e9c7821))
+* **payment:** INT-3946 PR requested changes ([c805d55](https://github.com/bigcommerce/checkout-sdk-js/commit/c805d55707df4df3cafcf65292b11e78b4476de4))
+* **payment:** INT-3946 removed unused variables ([f8f5f68](https://github.com/bigcommerce/checkout-sdk-js/commit/f8f5f68c7e4f2c1ccd5de360bd1d84bd00a7bc67))
+* **payment:** INT-3946 using supported locales on masterpass SRC ([b719bf8](https://github.com/bigcommerce/checkout-sdk-js/commit/b719bf8818f68e7cbdaaf085e4b3f7da063363b7))
+* **payment:** INT-3946 using supported locales on masterpass SRC ([6eaf14f](https://github.com/bigcommerce/checkout-sdk-js/commit/6eaf14f0f5b888c2da4cf1b3b037f028878938b2))
+* **payment:** INT-3946 using supported locales on masterpass SRC ([1b30227](https://github.com/bigcommerce/checkout-sdk-js/commit/1b302276571de56126de80a087c62edf890777af))
+* **payment:** INT-4598 handle vaulting Enable checkbox ([cee0198](https://github.com/bigcommerce/checkout-sdk-js/commit/cee01981b80a6d4ae1b84586b860d0168b83ace6))
+* **payment:** INT-4661 [Afterpay] get countryCode by shopperCurrency ([ca41447](https://github.com/bigcommerce/checkout-sdk-js/commit/ca41447c42bd4d199b9ae8908e6ad9a2345cf8ac))
+
 ### [1.169.1](https://github.com/bigcommerce/checkout-sdk-js/compare/v1.169.0...v1.169.1) (2021-07-29)
 
 ## [1.169.0](https://github.com/bigcommerce/checkout-sdk-js/compare/v1.168.1...v1.169.0) (2021-07-29)
