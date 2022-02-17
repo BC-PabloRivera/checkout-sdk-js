@@ -12,6 +12,7 @@ import PaymentMethodActionCreator from '../../payment-method-action-creator';
 import { PaymentInitializeOptions, PaymentRequestOptions } from '../../payment-request-options';
 import PaymentStrategy from '../payment-strategy';
 
+import formatLocale from './format-locale';
 import { StripeElement, StripeElements, StripeUPEClient } from './stripe-upe';
 import StripeUPEScriptLoader from './stripe-upe-script-loader';
 
@@ -51,6 +52,7 @@ export default class StripeUPEPaymentStrategy implements PaymentStrategy {
 
         this._stripeElements = this._stripeElements ?? this._stripeUPEClient.elements({
             clientSecret: paymentMethod.clientToken,
+            locale: formatLocale(this._locale),
         });
 
         const stripeElement: StripeElement = this._stripeElements.getElement('payment') || this._stripeElements.create('payment',
